@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>ZenZ</title>
+	</head>
+	<body>
+		<form>
+			<label class="form__username" for="username"
+				>Name:</label
+			>
+			<input
+				type="text"
+				id="username"
+				name="username"
+				required
+				autocomplete="name"
+			/>
+
+			<div class="form__quote">
+				Why are you feeling this way?
+			</div>
+			<select
+				class="form__emotion"
+				name="emotion"
+			>
+				<option value="alone">Alone</option>
+				<option value="anger">Anger</option>
+				<option value="education">
+					Education
+				</option>
+				<option value="courage">Courage</option>
+				<option value="faith">Faith</option>
+				<option value="fear">Fear</option>
+				<option value="family">Family</option>
+				<option value="health">Health</option>
+				<option value="love">Love</option>
+				<option value="failure">Failure</option>
+			</select>
+			<button
+				type="button"
+				onclick="handleSubmit()"
+			>
+				INSPIRE ME
+			</button>
+		</form>
+	</body>
+	<script src="./js/home.js"></script>
+</html>
